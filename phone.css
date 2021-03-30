@@ -1,4 +1,5 @@
 
+
 body::before {
     
     height: 44%;
@@ -12,10 +13,9 @@ body::before {
 }
 
 .navbar::before{
-    height: 10%;
- 
-
+    height: 12%;
 }
+
 .navbar button{
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ body::before {
 }
 .footer::before{
 
-   height: 129%;
+   height: 142%;
 }
 footer{
     color: white;
@@ -88,7 +88,6 @@ footer{
     text-align: center;
 
 }
-  /* Position and style the close button (top right corner) */
   .closebtn {
     position: absolute;
     top: 0;
@@ -96,8 +95,6 @@ footer{
     font-size: 36px;
     margin-left: 50px;
   }
-  
-  /* The button used to open the sidebar */
   .openbtn {
     font-size: 25px;
     cursor: pointer;
@@ -110,38 +107,30 @@ footer{
     top: 3px;
   }
  
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
-    transition: margin-right .5s; /* If you want a transition effect */
+    transition: margin-right .5s;
     padding: 20px;
   }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 1204px) {
     #mySidebar bar {padding-top: 0px;}
     #mySidebar  a {font-size: 18px;
     flex-direction: column;
-}
-
-   
+}  
   }
   #mySidebar {
-    height: 0; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 0; 
+    width: 0; 
+    position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     border-bottom-right-radius:500px ;
     background-color: rgb(141, 218, 218);
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+    overflow-x: hidden;
+    padding-top: 60px;
     transition: 0.75s;
-    flex-direction: column; /* 0.5 second transition effect to slide in the sidebar */
+    flex-direction: column; 
   }
-  
-  /* The sidebar links */
   #mySidebar a {
    text-decoration: none;
     padding: 1px 8px;
@@ -151,16 +140,13 @@ footer{
     display: block;
     transition: 0.3s;
   }
-  
-  /* When you mouse over the navigation links, change their color */
 
   #mySidebar ul li a:hover{
         color: white;
         background-color: rgb(107, 84, 84);
     
   }
-  
-  /* Position and style the close button (top right corner) */
+
   #mySidebar .closebtn {
     position: absolute;
     top: 0;
@@ -194,7 +180,7 @@ footer{
 #services{
     font-size: 1rem; 
     text-align: center;
-    margin-top: 40px;
+    margin-top: 14px;
 }
 .content ul li a{
     list-style: none;
@@ -211,14 +197,20 @@ footer{
     left: 100px;
     top: 15px;
     width: 233px;
+    background-color: #4b4b4a;
 }
 .content#list2{
     left: 100px;
     top: 15px;
     width: 233px;
+    background-color: #4b4b4a;
 }
 .content#list3{
     left: 100px;
     top: 15px;
     width: 233px;
+    background-color: #4b4b4a;
+}
+#remove{
+    display: block;
 }
