@@ -13,6 +13,7 @@ function mt(){
 let mytime=new Date;
 document.getElementById("time").innerHTML=mytime;
 }
+if($(window).width() >= 1024){
 let display=document.getElementById("box1");
 let listhover=document.getElementById("list1");
 display.addEventListener("mouseover",function(){
@@ -76,4 +77,5 @@ display3.addEventListener("mouseover",function(){
         document.getElementById("body").style.backgroundColor='white';
         document.getElementById("remove3").style.display='block';
     });
+}
  
