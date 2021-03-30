@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eletron Project Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1204px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+</head>
+<nav class="navbar">
+    <div id="logo">
+        <img src="img/logo.png" alt="error">
+        <h4>Electron Project Gallery</h4>
+    </div>
+    <ul id="mySidebar">
+        <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#" id="logbtn" onclick="document.getElementById('id02').style.display='block';">Contact Us</a></li>
+        <li><a href="#" id="logbtn" onclick="document.getElementById('id01').style.display='block';">Log In</a></li>
+    </ul>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#8803</button>
+    </div>
+</nav>
+
+<body id="body">
+    <Section id="head">
+        <h1>Welcome to the world of Technology</h1>
+        <p>Engineers use our kits to upgrade their knowledge on desired software algorithms, electronics concepts &
+            mechanical concepts to enhance their skills open up career options for a better future.</p>
+    </Section>
+    <br>
+    <br>
+    <div id="services">
+        <h1>Our Services</h1>
+    </div>
+    <section class="container">
+
+        <div id="box1" onclick="document.getElementById('list1').style.display='block';">
+          
+            <h1 class="title" id="title1">Electronics project </h1>
+            <p id="remove">Browse through our list of latest electronics projects ideas for beginners to final year
+                students. We
+                provide this free list of varied electronics project ideas. These are microcontroller as well as non
+                microcontroller based projects for beginner electronics engineering students.</p>
+        </div>
+        <Div class="content" id="list1">
+            <ul>
+                <li><button onclick="document.getElementById('list1').style.display='none'" ;>&times;</button></li>
+                <li><a href="#"> Electronics Projects</a> </li>
+                <li><a href="#"> IOT Projects</a></li>
+                <li> <a href="#">Drones & Robotics</a></li>
+                <li><a href="#">8051 Projects</a> </li>
+                <li><a href="">AVR/Atmega Projects</a> </li>
+                <li> <a href="#">PIC Projects</a> </li>
+                <li> <a href="#">All Microcontroller Projects</a> </li>
+                <li><a href="#">Raspberry Pi Projects</a> </li>
+                <li> <a href="#"> Arduino Projects</a></li>
+                <li> <a href="#"> RF & RFID Based</a></li>
+                <li><a href="#">Bluetooth & Zigbee</a> </li>
+                <li> <a href="#">Android Based</a> </li>
+                <li> <a href="#"> DTMF Based</a></li>
+                <li><a href="#">Gsm Based</a> </li>
+                <li> <a href="#"> GPS Projects</a></li>
+                <li><a href="#"> Wireless Communication</a></li>
+                <li> <a href="#">Mini Projects</a> </li>
+                <li> <a href="#">Electrical Projects</a> </li>
+            </ul>
+        </Div>
+        <div id="box2" onclick="document.getElementById('list2').style.display='block';">
+            <h1 class="title" id="title2">Mechanical Project</h1>
+            <p id="remove2">Our mechanical engineering project kits help developers, students build efficient mechanical engineering
+                projects using efficient design technology. Also some kits are used by students in adding functionality
+                to their existing final year mechanical projects or making new systems using our mechanical kits.</p>
+        </div>
+        <Div class="content" id="list2">
+            <ul>
+                <li><button onclick="document.getElementById('list2').style.display='none'" ;>&times;</button></li>
+                <li><a href="#">All Mechanical Projects</a> </li>
+                <li><a href="#">Industrial Projects</a> </li>
+                <li><a href="#">Mechatronics Projects</a> </li>
+                <li><a href="#"> Mechanical Major Projects</a> </li>
+                <li><a href="#">Mechanical Mini Projects</a> </li>
+                <li><a href="#">Pneumatic Projects</a> </li>
+                <li><a href="#">Power Generation Projects</a> </li>
+                <li><a href="#">Solidworks Design Projects</a> </li>
+                <li><a href="#">Mechanical Design Projects</a> </li>
+                <li><a href="#">FEA & Composite Materials</a> </li>
+                <li><a href="#"> Thermal Projects </a> </li>
+            </ul>
+        </Div>
+        <div id="box3" onclick="document.getElementById('list3').style.display='block';">
+            <h1 class="title" id="title3">Software Project</h1>
+            <p id="remove3">This section lists various b-tech final year projects for cse along with be final year projects for cse
+                branch. These projects have been researched and compiled into a list to make it easy for students to
+                choose their desired project topic for final year presentation. Get the widest list of cse projects at
+                Electron Projects.</p>
+        </div>
+        <Div class="content" id="list3">
+            <ul>
+                <li><button onclick="document.getElementById('list3').style.display='none'" ;>&times;</button></li>
+                <li><a href="#"> General Applications</a> </li>
+                <li><a href="#">Angular Js React Node JS</a> </li>
+                <li><a href="#">All Web Based</a> </li>
+                <li><a href="#">Android Projects</a> </li>
+                <li><a href="#"> Android Projects</a> </li>
+                <li><a href="#"> Dotnet Projects</a> </li>
+                <li><a href="#">Php Projects</a> </li>
+                <li><a href="#"> Python Projects</a> </li>
+                <li><a href="#"> Artificial Intelligence</a> </li>
+                <li><a href="#">Machine Learning</a> </li>
+                <li><a href="#"> Data Science</a> </li>
+                <li><a href="#">Data Mining Projects</a> </li>
+                <li><a href="#"> AR & VR</a> </li>
+                <li><a href="#">Blockchain Projects</a> </li>
+                <li><a href="#">Information Security Projects</a> </li>
+                <li><a href="#"> Smart Card & Biometrics</a> </li>
+                <li><a href="#">Cloud Computing Projects</a> </li>
+                <li><a href="#">Matlab Projects</a> </li>
+            </ul>
+        </Div>
+    </section>
+    <div class="footer">
+        <section class="footer-left">
+            <button>
+                <input type="search" name="" id="text">
+            </button>
+            <button id="sub">
+                <input type="submit" value="Search here">
+
+            </button>
+            <div>
+                <h4> Connect With US</h3>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/Electron-771702676361140">Like Us on Facebook</a>
+                |
+                <a href="https://www.youtube.com/channel/UC9dSj1yO86TBQEXq1F5iEwA">Suscribe To Our Youtube Channel</a>
+            </div>
+            <div>
+                <h4>Our Top Projects</h4>
+            </div>
+            <div id="list">
+                <ul>
+                    <li><a href="">Simple Mechanical Projects 2019</a></li>
+                    <hr>
+                    <li> <a href="">Raspberry Pi Projects 2019</a></li>
+                    <hr>
+                    <li> <a href="">IoT Based Projects 2019</a></li>
+                    <hr>
+                    <li><a href="">Top software projects 2019</a></li>
+                    <hr>
+                </ul>
+            </div>
+            <div>
+                <h4> About Us</h4>
+                <p>Started in 2015 Electron Project Gallery an initiative by Electron Pvt. Ltd grows exponentially
+                    through its research in technology. Electron works towards development of research based software,
+                    embedded/electronics and mechanical systems for research & development purposes.</p>
+            </div>
+        </section>
+        <section class="footer-mid">
+            <h4>Recent Project</h4>
+            <ul>
+                <li><a href="">Pneumatic Metal Sheet Bending Machine</a> </li>
+                <hr>
+                <li><a href="">DIY Indoor Racing Drone with Action Camera Mount</a> </li>
+                <hr>
+                <li><a href=""> DIY Tricopter Selfie Drone</a></li>
+                <hr>
+                <li><a href="">Rough Terrain 3 Wheel Electric Bike</a> </li>
+                <hr>
+                <li><a href="">Single Motor Double Door Opener Mechanism</a> </li>
+                <hr>
+                <li><a href="">Automatic Wire Cutter And Stripper Machine</a> </li>
+                <hr>
+                <li><a href="">Automatic Sugarcane Bud Cutter Machine</a> </li>
+                <hr>
+            </ul>
+            <div>
+                <h4>Contact Us For</h4>
+                <ul>
+                    <li><a href="">Dealership</a></li>
+                    <hr>
+                    <li><a href="">Became A Partner</a></li>
+                    <hr>
+                    <li><a href="">Investor</a></li>
+                    <hr>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-right">
+            <Div>
+                <h4>Legal Links</h4>
+                <ul>
+                    <li><a href="">TERMS & CONDITIONS</a></li>
+                    <hr>
+                    <li><a href="">PRIVACY POLICY</a></li>
+                    <hr>
+                    <li><a href="">SHIPPING & RETURNS POLICY</a></li>
+                    <hr>
+                    <li><a href="">WARRANTY</a></li>
+                    <hr>
+                </ul>
+            </Div>
+            <div>
+                <h4>Training & Workshops</h4>
+            </div>
+            <ul>
+                <li><a href="">Software Training Workshop</a></li>
+                <hr>
+                <li><a href="">IOT Training Workshop</a></li>
+                <hr>
+                <li><a href="">Robotics Training Workshop</a></li>
+                <hr>
+                <li><a href="">Electronics Training Workshop</a></li>
+                <hr>
+                <li><a href="">School Electronics Workshop</a></li>
+                <hr>
+                <li><a href="">School Robotics Workshop</a></li>
+                <hr>
+                <li><a href="">Preschool Science Workshop</a></li>
+                <hr>
+            </ul>
+        </section>
+        <div id="id02" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close"
+                        title="Close Modal">×</span>
+                    <img src="img/logo.png" Avatar" class="avatar">
+                    <h3>Electron Project Gallery</h3>
+                </div>
+
+                <div class="container2">
+                    <label><b>Name:</b></label>
+                    <input type="text" placeholder="Name" name="name" required>
+
+                    <label><b>Email:</b></label>
+                    <input type="text" placeholder="Email" name="uname" required>
+
+                    <label><b>Mobile.no:</b></label><br>
+                    <input type="text" placeholder="Enter your phone.no" name="phone" required>
+
+                    <label for="requirement"><b>Requirement:</b></label><br>
+                    <textarea id="req" name="req" rows="4" cols="50"></textarea>
+
+
+                    <button type="submit" id="login">Submit</button>
+                    <input type="checkbox" checked="checked"> Remember me
+                </div>
+
+                <div class="container1" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                    
+                </div>
+            </form>
+        </div>
+        <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">×</span>
+                    <img src="img/logo.png" Avatar" class="avatar">
+                    <h3>Electron Project Gallery</h3>
+                </div>
+
+                <div class="container1">
+                    <label><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" id="login">Login</button>
+                    <input type="checkbox" checked="checked"> Remember me
+                </div>
+
+                <div class="container1" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+        <h5>Electron Copyright © 2015 All Rights Reserved</h5>
+        <span id=time></span>
+    </footer>
+    <script src="new.js"></script>
+
+</body>
+
+</html>

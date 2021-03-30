@@ -1,0 +1,224 @@
+
+body::before {
+    
+    height: 44%;
+}
+.burger{
+    display: block;
+ }
+.navbar{
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar::before{
+    height: 10%;
+ 
+
+}
+.navbar button{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    flex-direction: column;
+    font-size: 13px;
+    align-items: center;
+   
+}
+#box1{
+    height: 169px;
+    width: 429px;  
+}
+#box1::before{
+    height: inherit;
+    width: 429px;
+
+}
+#box2{
+    height: 169px;
+    width: 429px;
+    
+    
+}
+#box2::before{
+    height: inherit;
+    width: 429px;
+
+}
+#box3{
+    height: 169px;
+    width: 429px;
+    
+}
+#box3::before{
+    height: inherit;
+    width: 429px;
+}
+.footer{
+ flex-wrap: wrap;
+
+}
+.footer-left{
+    justify-content: left;
+    margin-left: 7px;
+    width: 100%;
+    
+}
+    
+.footer-mid{
+    align-items: center;
+    margin-left: 7px;
+    width: 100%;
+ 
+}
+.footer-right{
+    align-items: center;
+    margin-left: 7px;
+    width: 100%;
+}
+.footer::before{
+
+   height: 129%;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+  /* Position and style the close button (top right corner) */
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 25px;
+    cursor: pointer;
+    background:none;
+    color:black;
+    padding: 10px 15px;
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+  }
+ 
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-right .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 1204px) {
+    #mySidebar bar {padding-top: 0px;}
+    #mySidebar  a {font-size: 18px;
+    flex-direction: column;
+}
+
+   
+  }
+  #mySidebar {
+    height: 0; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    border-bottom-right-radius:500px ;
+    background-color: rgb(141, 218, 218);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.75s;
+    flex-direction: column; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  #mySidebar a {
+   text-decoration: none;
+    padding: 1px 8px;
+    border-radius: 9px;
+    color: black;
+    font-size: 1.4rem;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+
+  #mySidebar ul li a:hover{
+        color: white;
+        background-color: rgb(107, 84, 84);
+    
+  }
+  
+  /* Position and style the close button (top right corner) */
+  #mySidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+  }
+  section h1{
+      font-size: 1.5rem;
+
+  }
+  section p{
+      font-size: 1rem;
+  }
+  section#head p{
+      font-size: 1rem;
+  }
+  section#head{
+      margin-top: -9%;
+  }
+  .container{
+    display: flex;
+    font-size: 1rem;
+    margin: 20px 20px;
+    
+}
+.container h1{
+    font-size: 1.5rem;
+}
+#services{
+    font-size: 1rem; 
+    text-align: center;
+    margin-top: 40px;
+}
+.content ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.content button{
+    position: absolute;
+    right: 5px;
+    width: 20px;
+}
+.content{
+    left: 100px;
+    top: 15px;
+    width: 233px;
+}
+.content#list2{
+    left: 100px;
+    top: 15px;
+    width: 233px;
+}
+.content#list3{
+    left: 100px;
+    top: 15px;
+    width: 233px;
+}
