@@ -90,7 +90,7 @@ body::before{
  section.container{
     display: flex;
     font-size: 1rem;
-    margin: 20px 20px;   
+    margin: 3px 20px;   
 }
 .title{
     font-size: 1.5rem;
@@ -362,7 +362,6 @@ span.psw {
     width: 25%;
     height: 450px; 
     overflow: auto; 
-    background-color: rgb(0, 0, 0); 
     background-color: rgba(0, 0, 0, 0.4); 
     padding-top: 60px;
     font-size: 1.5rem;
@@ -379,8 +378,7 @@ span.psw {
     top: 115px;
     width: 25%; 
     height: 450px; 
-    overflow: auto; 
-    background-color: rgb(0, 0, 0); 
+    overflow: auto;
     background-color: rgba(0, 0, 0, 0.4); 
     padding-top: 60px;
     font-size: 1.5rem;
