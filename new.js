@@ -13,69 +13,39 @@ function mt(){
 let mytime=new Date;
 document.getElementById("time").innerHTML=mytime;
 }
-if($(window).width() >= 1024){
-let display=document.getElementById("box1");
-let listhover=document.getElementById("list1");
+
+let display=document.getElementById("list1");
 display.addEventListener("mouseover",function(){
-     document.getElementById("body").style.backgroundColor='rgba(0, 0, 0, 0.4)'; 
-     document.getElementById("title1").style.display='block'; 
-     document.getElementById("remove").style.display='none'; 
-    
+     document.getElementById("body").style.backgroundColor='rgba(0, 0, 0, 0.7)'; 
+ 
     });
     display.addEventListener("mouseout",function(){
         document.getElementById("body").style.backgroundColor='white';
-        document.getElementById("remove").style.display='block'; 
-        document.getElementById("title1").style.display='block'; 
  });
- listhover.addEventListener("mouseover",function(){
-     document.getElementById("body").style.backgroundColor='rgba(0, 0, 0, 0.4)';
-     document.getElementById("remove").style.display='none'; ; 
-    });
-    listhover.addEventListener("mouseout",function(){
-        document.getElementById("body").style.backgroundColor='white';
-        document.getElementById("remove").style.display='block';
-    });
-let display2=document.getElementById("box2");
-let listhover2=document.getElementById("list2");
+let display2=document.getElementById("list2");
 display2.addEventListener("mouseover",function(){
-     document.getElementById("body").style.backgroundColor='rgba(0, 0, 0, 0.4)'; 
-     document.getElementById("title2").style.display='block'; 
-     document.getElementById("remove2").style.display='none'; 
-    
+     document.getElementById("body").style.backgroundColor='rgba(0, 0, 0, 0.7)'; 
+ 
     });
     display2.addEventListener("mouseout",function(){
         document.getElementById("body").style.backgroundColor='white';
-        document.getElementById("remove2").style.display='block'; 
-        document.getElementById("title2").style.display='block'; 
  });
- listhover2.addEventListener("mouseover",function(){
-     document.getElementById("body").style.backgroundColor='rgba(0, 0, 0, 0.4)';
-     document.getElementById("remove2").style.display='none'; 
-    });
-    listhover2.addEventListener("mouseout",function(){
-        document.getElementById("body").style.backgroundColor='white';
-        document.getElementById("remove2").style.display='block';
-    });
-let display3=document.getElementById("box3");
-let listhover3=document.getElementById("list3");
+let display3=document.getElementById("list3");
 display3.addEventListener("mouseover",function(){
-     document.getElementById("body").style.backgroundColor='rgba(0, 0, 0, 0.4)'; 
-     document.getElementById("title3").style.display='block'; 
-     document.getElementById("remove3").style.display='none'; 
-    
+     document.getElementById("body").style.backgroundColor='rgba(0, 0, 0, 0.7)'; 
+ 
     });
     display3.addEventListener("mouseout",function(){
         document.getElementById("body").style.backgroundColor='white';
-        document.getElementById("remove3").style.display='block'; 
-        document.getElementById("title3").style.display='block'; 
  });
- listhover3.addEventListener("mouseover",function(){
-     document.getElementById("body").style.backgroundColor='rgba(0, 0, 0, 0.4)';
-     document.getElementById("remove3").style.display='none'; 
-    });
-    listhover3.addEventListener("mouseout",function(){
-        document.getElementById("body").style.backgroundColor='white';
-        document.getElementById("remove3").style.display='block';
-    });
-}
+ const sign_in_btn = document.querySelector("#sign-in-btn");
+ const sign_up_btn = document.querySelector("#sign-up-btn");
+ const container = document.querySelector(".container");
  
+ sign_up_btn.addEventListener("click", () => {
+   container.classList.add("sign-up-mode");
+ });
+ 
+ sign_in_btn.addEventListener("click", () => {
+   container.classList.remove("sign-up-mode");
+ });
